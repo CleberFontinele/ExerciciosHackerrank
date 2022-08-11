@@ -13,7 +13,7 @@ function despesasMes(gastos) {
   let salario = 5000;
   let despesas = Object.values(gastos).reduce((acc, curr) => acc + curr)
 
-   return `Seu sálario foi de: R$${salario.toFixed(2)}, as despesas foi: R$${despesas.toFixed(2)}, e o que sobrou foi R$${(salario - despesas).toFixed(2)}`
+   return `Seu salário foi de: R$${salario.toFixed(2)}, as despesas foi: R$${despesas.toFixed(2)}, e o que sobrou foi R$${(salario - despesas).toFixed(2)}`
 }
 
 console.log(despesasMes(gastos));
